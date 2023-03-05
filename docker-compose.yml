@@ -19,6 +19,6 @@ services:
       environment:
         MONGO_INITDB_ROOT_USERNAME: root
         MONGO_INITDB_ROOT_PASSWORD: example
-
+        OKTETO_TOKEN: $OKTETO_TOKEN
 volumes:
   mongo_userge:
